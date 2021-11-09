@@ -1,4 +1,4 @@
-<?php  include("header.php");?> //includes header file
+<?php  include("header.php");?> 
  <head>
   <script>
   function validation()
@@ -23,3 +23,43 @@
       }
       </script>
   </head>   
+  <body>
+  <span id=""></span>
+     <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+           <br><br><h2>
+          <!--  <?php
+             $x=$_REQUEST['msg']; 
+             echo $x;
+       ?>   --></h2>
+       <br>
+           <h1><br>User Sign in:</h1><br><i>Don't have account?</i><a href="usignup.php"> Sign up Now</a>
+            	<br><br><br>
+              <?php
+                if(isset($_REQUEST['msg'])){
+                  echo "<div class='alert alert-danger'>".$_REQUEST['msg']."</div>";
+                }
+               ?>
+                <form action="ucheck.php" method="get">
+                        <table class="table table-responsive">
+                    		<tr>
+                    			<td style="color:black">Email Address<i class="fa fa-graduation-cap" aria-hidden="true"></i></td>
+                    		    <td><input type="text" name="email" id="e" class="form-control"></td>
+                    		</tr>
+                    		<tr>
+                    			<td style="color:black">Password</td>
+                    		    <td><input type="password" name="password" id="p" required="" class="form-control"></td>
+                    		</tr>
+                            <tr>
+                           </tr>
+                    	   <tr>
+                            <td><input type="submit" name="submit"  onclick="return validation();"class="form-control"></td>
+                    	   <td><input type="reset" name="reset" value="Reset "class="form-control"></td>
+                    	   </tr>
+                        </table>
+                </form>
+         <br><br><br><br><br><br><br><br><br><br><br>
+        </div></div>
+    </div>
+  </body>
+  <?php  include("footer.php");?>

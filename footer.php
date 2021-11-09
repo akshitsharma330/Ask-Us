@@ -1,10 +1,10 @@
 <!-- footer -->
-<div class="footer">
+<div class="footer" style="background:#164A41;">
 		
 		<div class="footer-grids">
 			<div class="col-md-3 footer-grid">
-				<p>project for sem7
-				<a href="mailto:info@example.com">akshit.sharma1786@gmail.com</a>
+				<p>project for sem7 CTITR
+				<a href="akshit.sharma1786@gmail.com">akshit.sharma1786@gmail.com</a>
 				<p>Phone : +91 8837797330</p>
 			</div>
 			<div class="col-md-3 footer-grid">
@@ -27,14 +27,7 @@
 		</div>
 		<div class="footer-copy">
 			<p>&copy 2021 AskUs. All rights reserved</p>
-			<ul>
-				<li><a href="#" class="twitter"><span type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Follow Us On Twitter"></span></a></li>
-				<li><a href="#" class="p"><span type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Follow Us On Pinterest"></span></a></li>
-				<li><a href="#" class="facebook" id="facebook"><span type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Follow Us On Facebook"></span></a></li>
-				<li><a href="#" class="dribble"><span type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Follow Us On Dribbble"></span></a></li>
-				<li><a href="#" class="rss"><span type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Follow Us On RSS"></span></a></li>
-				<div class="clearfix"> </div>
-			</ul>
+			
 			<script>
 				$(function () {
 				  $('[data-toggle="tooltip"]').tooltip()

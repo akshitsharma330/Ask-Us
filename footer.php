@@ -1,13 +1,15 @@
 <!-- footer -->
-<div class="footer" style="background:#164A41;">
+<div class="footer" style="background:#164A41; font-family:Mochiy Pop One , sans-serif;">
 		
 		<div class="footer-grids">
-			<div class="col-md-3 footer-grid">
+			<div class="col-md-4 footer-grid">
 				<p>project for sem7 CTITR
 				<a href="akshit.sharma1786@gmail.com">akshit.sharma1786@gmail.com</a>
 				<p>Phone : +91 8837797330</p>
 			</div>
-			<div class="col-md-3 footer-grid">
+			<div class="col-md-4 footer-grid">
+			</div>
+			<div class="col-md-4 footer-grid">
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
@@ -16,12 +18,12 @@
 				</ul>
 			</div>
 			
-			<div class="col-md-3 footer-grid">
+			<div class="col-md-4 footer-grid">
 				<div class="footer-grid-left">
-				   <a class="navbar-brand" href="index.php">AskUs</a>
+				   <a class="navbar-brand" href="index.php"><span style="font-family:Mochiy Pop One , sans-serif;">AskUs</span></a>
 				</div>
 				
-				<div class="clearfix"> </div>
+				<!-- <div class="clearfix"> </div> -->
 			</div>
 			<div class="clearfix"> </div>
 		</div>

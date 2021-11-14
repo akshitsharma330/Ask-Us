@@ -1,6 +1,7 @@
 <?php include("header.php"); ?>
 
 <head>
+    <title>Sign In</title>
     <script>
         function validation() {
             var p = document.getElementById("p").value;
@@ -31,7 +32,7 @@
                         ?>   -->
             </h2>
             <br>
-            <h1 style="font-size:50px;"><br><strong>User Sign in:</strong></h1><br><i>Don't have account?</i><a href="usignup.php"> Sign up Now</a>
+            <h1 style="font-size:40px; font-family:Mochiy Pop One , sans-serif;"><br>User Sign in:</h1><br><i>Don't have account?</i><a href="usignup.php"> Sign up Now</a>
             <br><br><br>
             <?php
             if (isset($_REQUEST['msg'])) {
@@ -41,12 +42,13 @@
             <form action="ucheck.php" method="get">
                 <table class="table table-responsive">
                     <tr>
+                        
                         <td style="color:black">Email Address <i class="fa fa-graduation-cap" aria-hidden="true"></i></td>
-                        <td><input type="text" name="email" id="e" class="form-control"></td>
+                        <td><input type="text" name="email" id="e" class="form-control" style="border-radius:10px; " placeholder="Enter Email Address"></td>
                     </tr>
                     <tr>
                         <td style="color:black">Password</td>
-                        <td><input type="password" name="password" id="p" required="" class="form-control"></td>
+                        <td><input type="password" name="password" id="p" required="" class="form-control" style="border-radius:10px;" placeholder="Enter Password"></td>
                     </tr>
                     <tr>
                     </tr>

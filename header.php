@@ -123,10 +123,7 @@
 
 
 
-                               <li><br><a href="index.php"><span data-hover="Home">Home</span></a></li>
-						        <li><br><a href="question.php"><span data-hover="AskUssdgs">AskUsgsdg</span></a></li>
-						        <li><br><a href="mail.php"><span data-hover="Contact Us">Contact Us</span></a></li>
-						       <li><ul><div class="dropdown">
+                               
 	<?php 
                                    echo "<img src='$row[pic]' alt='Avatar'style='width:70px;height:75px' id='signinimg'>";?>
 										  
@@ -152,7 +149,7 @@
 										}
 										        ?>
 						        
-						     	<br><br>
+						     	
                             <?php
 					    	 }
                             ?></span></a>

@@ -2,12 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Home Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
 <script src="js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -23,7 +27,6 @@
 <!-- start-smoth-scrolling -->
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
-<link href="//fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet" type='text/css'>
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <style >
 	body
@@ -69,8 +72,8 @@
 </style>
 </head>
 <body>
-	<div class="header" style="background:#164A41; font-family:Mochiy Pop One , sans-serif;">
-		<div class="container" style="background:#164A41;">
+	<div class="header"  style="background:#164A41;">
+		<div class="container"  style="background:#164A41;">
 			<nav class="navbar navbar-default">
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -80,7 +83,7 @@
 					<span class="icon-bar"></span>
 				  </button>
 					<div class="loo">
-						<br><a class="navbar-brand" href="index.php"><font color="#F1B24A" style="font-size:75px ; font-family:Mochiy Pop One , sans-serif;">A</font><font color="skyblue" style="font-family:Mochiy Pop One , sans-serif;">sk-Us</font></a>
+						<br><a class="navbar-brand" href="index.php" style="font-family: 'Mochiy Pop One', sans-serif;" ><font color="orange" >A</font><font color="skyblue">sk Us</font></a>
 					</div>
 				</div>
                 <br>
@@ -90,10 +93,10 @@
 						<?php if(!isset($_SESSION['email']))
 						{
 						?>
-							<!-- navigation bar -->
+				
 				
 							<li><a href="index.php"><span data-hover="Home">Home</span></a></li>
-						    <li><a href="question.php"><span data-hover="AskUs">AskUs</span></a></li>
+						    <li><a href="question.php"><span data-hover="Ask Question">Ask Us</span></a></li>
 						    <li><a href="mail.php"><span data-hover="Contact Us">Contact Us</span></a></li>
 			                <li><a href="usignin.php"><span data-hover="Sign In">Sign In</span></a></li>  
 			                <br><br>
@@ -123,7 +126,10 @@
 
 
 
-                               
+                               <li><br><a href="index.php"><span data-hover="Home">Home</span></a></li>
+						        <li><br><a href="question.php"><span data-hover="Ask Question">Ask Us</span></a></li>
+						        <li><br><a href="mail.php"><span data-hover="Contact Us">Contact Us</span></a></li>
+						       <li><ul><div class="dropdown">
 	<?php 
                                    echo "<img src='$row[pic]' alt='Avatar'style='width:70px;height:75px' id='signinimg'>";?>
 										  
@@ -149,7 +155,7 @@
 										}
 										        ?>
 						        
-						     	
+						     	<br><br>
                             <?php
 					    	 }
                             ?></span></a>

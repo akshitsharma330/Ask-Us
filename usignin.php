@@ -44,7 +44,7 @@
                     <tr>
                         
                         <td style="color:black">Email Address <i class="fa fa-graduation-cap" aria-hidden="true"></i></td>
-                        <td><input type="text" name="email" id="e" class="form-control" style="border-radius:10px; " placeholder="Enter Email Address"></td>
+                        <td><input type="text" name="email" id="e" class="form-control" style="border-radius:10px;  " placeholder="Enter Email Address"></td>
                     </tr>
                     <tr>
                         <td style="color:black">Password</td>
@@ -53,8 +53,8 @@
                     <tr>
                     </tr>
                     <tr>
-                        <td><input type="submit" name="submit" onclick="return validation();" class="form-control"></td>
-                        <td><input type="reset" name="reset" value="Reset " class="form-control"></td>
+                        <td><input type="reset" name="reset" value="Reset " class="form-control" style=" border-radius:20px; background-color:#164A41; color:white;"></td>
+                        <td><input type="submit" name="submit" onclick="return validation();" class="form-control" style=" border-radius:20px; background-color:#164A41; color:white;"></td>
                     </tr>
                 </table>
             </form>
